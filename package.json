@@ -1,0 +1,13 @@
+{
+  "name": "text-archive-engine",
+  "main": "./lib/text-archive-engine",
+  "version": "0.1.0",
+  "description": "Engine to compress and store multiple versions of text in a file.",
+  "repository": "https://github.com/mark-hahn/text-archive-engine",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp":            "0.5.x",
+    "binarysearch":      "0.2.x",
+    "diff_match_patch":  "0.1.x"
+  }
+}
