@@ -300,6 +300,7 @@ load.text = (projPath, filePath, idx, time) ->
   if not (path = load.getPath(projPath, filePath).path) then return {text: ''}
   setPath path, yes
   idx ?= index.length - 1
+  if idx < 0 then idx += index.length
   if idx < 0 then return {text: ''}
   strt = Date.now()
   text = getTextAndPos idx, time
